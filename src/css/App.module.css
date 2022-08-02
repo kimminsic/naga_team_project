@@ -1,0 +1,150 @@
+html,body{
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.backImg{
+  left:0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.2;
+  z-index: -1;
+  transform: scale(1);
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+}
+/* 
+.backImg:hover{
+  z-index: 1;
+  transform: scale(1.03);
+  opacity: 1;
+} */
+
+.selectImg{
+  width: 30%;
+  height: 30vh;
+  opacity: 0.6;
+  z-index: 1;
+  transform: scale(1);
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+}
+
+.selectImg1{
+  left:10%;
+  top:30%;
+  width: 35%;
+  height: 50vh;
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1);
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+  border-radius: 10px;
+}
+
+
+.selectImg2{
+  right:10%;
+  top:30%;
+  width: 35%;
+  height: 50vh;
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1);
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.text{
+  display: flex;
+  border:10px solid red;
+  width:1240px;
+  justify-content: space-between;
+  top:50%;
+  left:50%;
+  transform: translatex(-50%) translatey(-50%);
+  align-items: center;
+  position: absolute;
+  font-weight: bold;
+  color:white;
+  text-shadow: 1px 2px 2px #000;
+  font-size: 7rem;
+}
+
+.textTour{
+  color:inherit;
+  text-decoration: none;
+  transition: font-size 0.5s;
+}
+.textTour:hover{
+  font-size: 12rem;
+}
+
+.textOver{
+  color:inherit;
+  text-decoration: none;
+  transition: font-size 0.5s;
+}
+
+.textOver:hover{
+  font-size: 12rem;
+}
+
+.textRight{
+  position: absolute;
+  left:50%;
+  transform: translatex(-50%) translatey(-50%);
+  bottom: 2%;
+}
+
+
+
+/* 
+.backImg2:hover{
+  transform: scale(1.02);
+  opacity: 1;
+}  */
+
+/* 
+.block::before{
+  content:"당신의 여행 파트너 NAGA";
+  color:#f2f2f2;
+  position:absolute;
+  top:20%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+  font-size: 3.5rem;
+  z-index:1;
+  padding:10px;
+  font-weight:bold;
+  opacity:0;
+  transition:opacity 1s;
+  text-shadow: 1px 2px 3px #000;
+}
+
+.block::after{
+  content:"바로가기";
+  color:#f2f2f2;
+  position:absolute;
+  top:80%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  padding:10px;
+  font-weight:bold;
+  opacity:0;
+  transition:opacity 0.7s;
+  text-shadow: 2px 3px 3px #000;
+}
+
+
+div:hover::before{
+  opacity:1;
+}
+
+div:hover::after{
+  opacity: 1;
+} */
