@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: 'GmarketSansMedium';
+}
+html,body{
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul,li{
+  margin:0;
+  padding: 0;
+}
+
+ul {padding-left: 0;}
+li {list-style-type: none;}
+a { color:inherit; text-decoration: none;}
+
+.overSB{
+  width:100%;
+  height:100vh;
+  overflow-y: scroll;
+}
+
+.backImg{
+  left:0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.2;
+  z-index: -1;
+  transform: scale(1);
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+}
+
+.selectImg{
+  width: 30%;
+  height: 30vh;
+  opacity: 0.6;
+  z-index: 1;
+  transform: scale(1);
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+}
+
+.selectImg1{
+  left:10%;
+  top:30%;
+  width: 35%;
+  height: 50vh;
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1);
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+  border-radius: 10px;
+}
+
+
+.selectImg2{
+  right:10%;
+  top:30%;
+  width: 35%;
+  height: 50vh;
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1);
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.text{
+  display: flex;
+  width:1240px;
+  justify-content: space-between;
+  top:50%;
+  left:50%;
+  transform: translatex(-50%) translatey(-50%);
+  align-items: center;
+  position: absolute;
+  font-weight: bold;
+  color:white;
+  text-shadow: 1px 2px 2px #000;
+  font-size: 7rem;
+}
+
+.textTour{
+  color:inherit;
+  text-decoration: none;
+  transition: font-size 0.5s;
+  font-size: 7rem;
+}
+.textTour:hover{
+  font-size: 12rem;
+}
+
+.textOver{
+  color:inherit;
+  text-decoration: none;
+  transition: font-size 0.5s;
+  font-size: 7rem;
+}
+
+.textOver:hover{
+  font-size: 12rem;
+}
+
+.textRight{
+  position: absolute;
+  left:50%;
+  transform: translatex(-50%) translatey(-50%);
+  bottom: 2%;
+}
+
+Footer{
+  width:99.5%;
+  height: 20vh;
+  border:1px solid #67adb7;
+}

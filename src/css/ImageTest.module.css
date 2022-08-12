@@ -1,0 +1,14 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.slider {
+  width: 1800px;
+  margin: 0px auto;
+}
+.slider .slick-slide {
+  margin: 10px;
+}
+.slick-prev:before, .slick-next:before {
+  color: #444444;
+}

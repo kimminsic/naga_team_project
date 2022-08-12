@@ -1,0 +1,57 @@
+.navbar{
+  width:70%;
+  padding:15px; 
+  left:2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.navbar_bg{
+  width: 100%;
+}
+
+.navbar_list{
+  position: relative;
+  right:5px;
+  top:0;
+}
+
+.logo{
+  padding-right: 50px;
+}
+
+
+.inputbar{
+  width:500px;
+  height: 50px;
+  font-size: 2rem;
+}
+
+.buttonBar{
+  width:55px;
+  height: 56px;
+  background-color: #67aeb8;
+  font-size:1.2rem;
+
+}
+
+.logoImage{
+  width: 150px;
+}
+.textInput{
+  width: 550px;
+  height: 45px;
+  font-size: 3rem;
+}
+
+.product-title {
+  text-align:center;
+  display:table;
+  border:1px solid #cecece;
+  width:280px;
+  height:250px;
+}
